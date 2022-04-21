@@ -1,20 +1,20 @@
                               SMART AGENT RECRUITMENT
 
-Problem Statement
+**Problem Statement**
 FinMan is a Financial Distribution company. Over the last 10 years, they have created an offline distribution channel across India. They sell financial products to consumers by hiring agents in their network. These agents are freelancers and get commission when they make a product sale.
 The Managers at FinMan are primarily responsible for recruiting agents. Once a manager has identified a potential applicant, they would explain the business opportunity to the agent. Once the agent provides the consent, an application is made to FinMan to become an agent. This date is known as application_receipt_date.
 In the next 3 months, this potential agent has to undergo a 7 day training at the FinMan branch (about Sales processes and various products) and clear a subsequent examination in order to become a FinMan agent.
 
 There is a significant investment which FinMan makes in identifying, training and recruiting these agents. However, there are a set of agents who do not bring in the expected resultant business. 
 
-Objective
+**Objective**
 •	Based on the above problem statement task was to create a prediction model that will help the FinMan to evaluate that on what candidates they should be more focus in future to save their cost and time screening non-relevant candidates and what kind of managers should be appointed for the screening process.
 
 
 
 
 
-Approach:
+**Approach:**
 To create a Prediction Model that will help FinMan to target right candidates, I have used the following approach:
 •	Identify the problem statement: Thoroughly understood the data and the problem statement to use the required ML algorithm for prediction.
 •	Based on the problem statement and objective the ML algorithm best identified for the prediction of the credit card leads is supervised (Logistic Regression) Machine Learning Algorithm, because the target variable that we are targeting is categorical.
@@ -37,7 +37,7 @@ For Data Preprocessing I have followed the following approach:
 •	The bivariate analysis of the target variable and predictors was done on the basis of the average value, that how much the average value of one category is different from the other category’s average value.
 
 
-Model Development:
+**Model Development:**
 •	To create a final prediction model, those predictors were required that were correlated with the target variable.
 •	The correlation of the predictor variables with the target variables was statistically evaluated on the basis of the statistics tests.
 •	For categorical vs quantitative predictors ANOVA TEST was performed.
